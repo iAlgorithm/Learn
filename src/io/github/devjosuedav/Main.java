@@ -4,6 +4,7 @@ public class Employee {
     private int idNumber;
     private String department;
     private String position;
+    private String id;
 
     /**
      * Create a new employee
@@ -88,12 +89,5 @@ public class Employee {
      */
     public String getPosition() {
         return position;
-    }
-
-    /**
-     * @param position of employee
-     */
-    public void setPosition(String position) {
-        this.position = position;
     }
 }
